@@ -1,0 +1,65 @@
+:root {
+	--color-primary: #2d5a27;
+	--color-primary-hover: #3a7a30;
+	--color-primary-accent: #4a8c3f;
+	--color-secondary: #7a6a50;
+	--color-accent: #c8b98a;
+
+	--color-bg: #f8f6f2;
+	--color-surface: #fff;
+	--color-border: #e4dfd6;
+
+	--color-text: #1a1a1a;
+	--color-text-muted: #5a5a5a;
+	--color-text-light: #8a8a8a;
+
+	--color-success: #1a6e3a;
+	--color-success-bg: #d4edda;
+	--color-warning: #7a5500;
+	--color-warning-bg: #fff3cd;
+	--color-danger: #7a1a1a;
+	--color-danger-bg: #f8d7da;
+
+	--font-sans: 'Inter', system-ui, sans-serif;
+
+	--font-size-xs: .75rem; /* Labels, badges, fine print*/
+	--font-size-sm: .875rem; /* Secondary text, captions, metadata */
+	--font-size-base: 1rem; /* Body text, paragraphs */
+	--font-size-lg: 1.125rem; /* Lead text, intro paragraphs */
+	--font-size-xl: 1.25rem; /* Small headings, card titles */
+	--font-size-2xl: 1.5rem; /* Section subheadings (h3) */
+	--font-size-3xl: 1.875rem; /* Section headings (h2) */
+	--font-size-4xl: 2.25rem; /* Page headings (h1) */
+	--font-size-5xl: 3rem; /* Hero headline */
+
+	--font-weight-light: 300;
+	--font-weight-regular: 400;
+	--font-weight-medium: 500;
+	--font-weight-semibold: 600;
+	--font-weight-bold: 700;
+
+	--line-height-tight: 1.2; /* Headings */
+	--line-height-normal: 1.5; /* UI elements */
+	--line-height-relaxed: 1.7; /* Body text, paragraphs */
+
+	--letter-spacing-wide: 0.08em;
+
+	--space-1: 0.25rem; /* Tight internal gaps -- icon to label, badge padding */
+	--space-2: 0.5rem; /* Small padding -- pill labels, tight component gaps */
+	--space-3: 0.75rem; /* Input padding vertical, small gaps between elements */
+	--space-4: 1rem; /* Standard internal padding -- cards, form fields */
+	--space-5: 1.25rem; /* Slightly generous padding -- card content areas */
+	--space-6: 1.5rem; /* Gap between components, section sub-spacing */
+	--space-8: 2rem; /* Standard section internal padding */
+	--space-10: 2.5rem; /* Large component spacing */
+	--space-12: 3rem; /* Section top/bottom padding on mobile */
+	--space-16: 4rem; /* Section top/bottom padding on desktop */
+	--space-20: 5rem; /* Hero and large section spacing */
+	--space-24: 6rem; /* Maximum section breathing room */
+
+	--radius-sm: 4px; /* Subtle rounding -- badges, tags, small chips */
+	--radius-md: 8px; /* Standard rounding -- buttons, input fields, small cards */
+	--radius-lg: 12px; /* Softer rounding -- listing cards, portal panels */
+	--radius-xl: 16px; /* Pronounced rounding -- hero CTA buttons, featured cards */
+	--radius-full: 9999px; /* Fully rounded pills -- status badges, toggle switches */
+}

@@ -1,0 +1,23 @@
+{
+  "name": "family-garden-villa",
+  "version": "1.0.0",
+  "description": "Family Garden Villa website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch --env-file=.env app.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kayenp/family-garden-villa.git"
+  },
+  "author": "Ken Poon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kayenp/family-garden-villa/issues"
+  },
+  "homepage": "https://github.com/kayenp/family-garden-villa#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
