@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS neighborhoods (
 	highlights text[],
 	photo_url text,
 	map_embed_url text,
-	created_at timestamptz 
+	created_at timestamptz DEFAULT now()
 );
 
 CREATE INDEX IF NOT EXISTS idx_neighborhoods_slug ON neighborhoods (slug);
