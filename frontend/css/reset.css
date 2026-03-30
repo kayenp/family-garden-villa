@@ -1,0 +1,50 @@
+*::before, *, *::after {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+*::before, *, *::after,
+button {
+	padding: 0;
+}
+
+input,
+button,
+select,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+}
+
+input,
+button,
+select,
+textarea, 
+h1, h2, h3, h4, h5, h6 {
+	font-weight: inherit;
+}
+
+ul, ol {
+	list-style-type: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+button {
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
