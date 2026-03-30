@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS listings (
 	description text, 
 	features text[],
 	floor_plan_url text,
-	status text,
+	status text DEFAULT 'active', -- active | unlisted --
 	created_at timestamptz DEFAULT now(),
 	updated_at timestamptz DEFAULT now()
 )

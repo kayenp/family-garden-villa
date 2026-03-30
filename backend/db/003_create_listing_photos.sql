@@ -5,3 +5,5 @@ CREATE TABLE IF NOT EXISTS listing_photos (
 	sort_order smallint,
 	created_at timestamptz DEFAULT now()
 )
+
+CREATE INDEX IF NOT EXISTS idx_listing_photos_listing_id ON listing_photos (listing_id)
