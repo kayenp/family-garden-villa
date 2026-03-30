@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS applications (
 	(id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
-	listing_id uuid REFERENCES listings(id) ON DELETE RESTRICT,
+	listing_id uuid NOT NULL REFERENCES listings(id) ON DELETE RESTRICT,
 	status text DEFAULT 'pending', -- pending | approved | denied --
 	manager_notes text),
 	

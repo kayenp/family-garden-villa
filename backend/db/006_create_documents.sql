@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS documents (
 	id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
-	application_id uuid REFERENCES applications(id) ON DELETE CASCADE,
+	application_id uuid NOT NULL REFERENCES applications(id) ON DELETE CASCADE,
 	doc_type text NOT NULL, -- government_id | pay_stub | other --
 	file_name text NOT NULL,
 	storage_path text NOT NULL,
