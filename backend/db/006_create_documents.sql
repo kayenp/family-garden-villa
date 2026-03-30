@@ -6,6 +6,6 @@ CREATE TABLE IF NOT EXISTS documents (
 	storage_path text NOT NULL,
 	mime_type text NOT NULL,
 	created_at timestamptz DEFAULT now()
-)
+);
 
 CREATE INDEX IF NOT EXISTS idx_documents_application_id ON documents (application_id)

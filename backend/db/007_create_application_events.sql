@@ -6,6 +6,6 @@ CREATE TABLE IF NOT EXISTS application_events (
 	to_status text NOT NULL,
 	note text,
 	created_at timestamptz DEFAULT now()
-)
+);
 
 CREATE INDEX IF NOT EXISTS idx_application_events_application_id ON application_events (application_id)
