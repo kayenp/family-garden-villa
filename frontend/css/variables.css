@@ -1,18 +1,21 @@
 :root {
+	/* ─── Brand colors ─────────────────────────────────── */
 	--color-primary: #2d5a27;
 	--color-primary-hover: #3a7a30;
 	--color-primary-accent: #4a8c3f;
 	--color-secondary: #7a6a50;
 	--color-accent: #c8b98a;
 
+	/* ─── Neutrals ──────────────────────────────────────── */
+	--color-white: #ffffff;
 	--color-bg: #f8f6f2;
 	--color-surface: #fff;
 	--color-border: #e4dfd6;
-
 	--color-text: #1a1a1a;
 	--color-text-muted: #5a5a5a;
 	--color-text-light: #8a8a8a;
 
+	/* ─── Status colors ─────────────────────────────────── */
 	--color-success: #1a6e3a;
 	--color-success-bg: #d4edda;
 	--color-warning: #7a5500;
@@ -20,6 +23,7 @@
 	--color-danger: #7a1a1a;
 	--color-danger-bg: #f8d7da;
 
+	/* ─── Typography ────────────────────────────────────── */
 	--font-sans: 'Inter', system-ui, sans-serif;
 
 	--font-size-xs: .75rem; /* Labels, badges, fine print*/
@@ -44,6 +48,7 @@
 
 	--letter-spacing-wide: 0.08em;
 
+	/* ─── Spacing ───────────────────────────────────────── */
 	--space-1: 0.25rem; /* Tight internal gaps -- icon to label, badge padding */
 	--space-2: 0.5rem; /* Small padding -- pill labels, tight component gaps */
 	--space-3: 0.75rem; /* Input padding vertical, small gaps between elements */
@@ -57,9 +62,21 @@
 	--space-20: 5rem; /* Hero and large section spacing */
 	--space-24: 6rem; /* Maximum section breathing room */
 
+	/* ─── Border radius ─────────────────────────────────── */
 	--radius-sm: 4px; /* Subtle rounding -- badges, tags, small chips */
 	--radius-md: 8px; /* Standard rounding -- buttons, input fields, small cards */
 	--radius-lg: 12px; /* Softer rounding -- listing cards, portal panels */
 	--radius-xl: 16px; /* Pronounced rounding -- hero CTA buttons, featured cards */
 	--radius-full: 9999px; /* Fully rounded pills -- status badges, toggle switches */
+
+	 /* ─── Shadows ───────────────────────────────────────── */
+	 --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+	 --sahdow: 0 4px 12px rgba(0, 0, 0, 0.08);
+	 --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.10);
+
+	 /* ─── Layout ────────────────────────────────────────── */
+	 --container-max: 1200px;
+
+	 /* ─── Transitions ───────────────────────────────────── */
+	 --transition: 200ms ease;
 }
