@@ -94,11 +94,15 @@
 
 	.card:hover {
 		transform: translateY(-2px);
-		box-shadow: var(--shadow-lg);	
+		box-shadow: var(--shadow-md);	
 	}
 
 	.btn--primary:active {
 		transform: scale(0.98);
+	}
+
+	.floating {
+		box-shadow: 0 30px 60px rgba(25, 28, 24, 0.06);
 	}
 }
 
