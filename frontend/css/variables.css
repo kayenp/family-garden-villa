@@ -5,7 +5,10 @@
 	--color-primary-hover: #3a7a30;
 	--color-primary-accent: #3b6934;
 	--color-secondary: #7a6a50;
+	--color-secondary-container: #d0e6c6;
+	--color-on-secondary-container: #54684e;
 	--color-accent: #c8b98a;
+	--color-border-ghost: rgba(194, 201, 187, 0.20);
 
 	/* ─── Neutrals ──────────────────────────────────────── */
 	--color-white: #ffffff;
@@ -82,17 +85,27 @@
 	--radius-xl: 1.5rem; /* Pronounced rounding -- hero CTA buttons, featured cards */
 	--radius-full: 9999px; /* Fully rounded pills -- status badges, toggle switches */
 
-	 /* ─── Shadows ───────────────────────────────────────── */
-	 --shadow-sm: 0 2px 24px rgba(25, 28, 24, 0.05);
-	 --shadow-md: 0 4px 32px rgba(25, 28, 24, 0.07);
-	 --shadow-lg: 0 8px 40px rgba(25, 28, 24, 0.09);
-	 --shadow-nav: 0 2px 32px rgba(21, 66, 18, 0.07);
-	 --shadow-float: 0 8px 48px rgba(25, 28, 24, 0.12);
+	/* ─── Shadows ───────────────────────────────────────── */
+	--shadow-sm: 0 2px 24px rgba(25, 28, 24, 0.05);
+	--shadow-md: 0 4px 32px rgba(25, 28, 24, 0.07);
+	--shadow-lg: 0 8px 40px rgba(25, 28, 24, 0.09);
+	--shadow-nav: 0 2px 32px rgba(21, 66, 18, 0.07);
+	--shadow-float: 0 8px 48px rgba(25, 28, 24, 0.12);
 
-	 /* ─── Layout ────────────────────────────────────────── */
-	 --container-max: 1200px;
+	/* ─── Layout ────────────────────────────────────────── */
+	--container-max: 1200px;
 
-	 /* ─── Transitions ───────────────────────────────────── */
-	 --transition: 200ms ease;
-	 --transition-slow: 300ms ease;
+	/* ─── Transitions ───────────────────────────────────── */
+	--transition: 200ms ease;
+	--transition-slow: 300ms ease;
+
+	/* Dynamic viewport height — body min-height from code.html */
+	--min-height: max(884px, 100dvh);
+
+	/* Sticky footer heights — clearance for overlapping fixed bars */
+	--tab-bar-height: 64px;
+	--sticky-cta-height: 88px;
+	--mobile-nav-height: 64px;
+	--body-bottom-clearance: calc(var(--tab-bar-height) + var(--sticky-cta-height));
+
 }
