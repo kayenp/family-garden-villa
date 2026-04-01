@@ -1,0 +1,67 @@
+@media (max-width: 768px) {
+	/* Page layout */
+	.page__main {
+		padding-top: var(--mobile-nav-height);
+	}
+	.hero {
+		margin-top: 0;
+	}
+
+	.has-tab-bar {
+		padding-bottom: var(--tab-bar-height);
+	}
+	.has-sticky-cta {
+		padding-bottom: var(--sticky-cta-height);
+	}
+	.has-tab-bar.has-sticky-cta {
+		padding-bottom: var(--body-bottom-clearance);
+	}
+
+	/* Nav */
+	.nav-outer {
+		padding: 0;
+	}
+	.nav {
+		border-radius: 0;
+		top: 0;
+	}
+	.nav__links {
+		display: none;
+	}
+	.nav-search {
+		display: none;
+	}
+	.nav__hamburger {
+		display: flex;
+	}
+
+	/* Grids stacking */
+	.cards-grid {
+		grid-template-columns: 1fr;
+	}
+	.sol-grid {
+		grid-template-columns: 1fr;
+	}
+	.landlord-cta {
+		grid-template-columns: 1fr;
+	}
+	.footer-inner {
+		grid-template-columns: 1fr;
+	}
+
+	/* Typography */
+	.hero-title {
+		font-size: var(--font-size-4xl);
+	}
+	.lc-title {
+		font-size: var(--font-size-3xl);
+	}
+	
+	/* Spacing */
+	.featured, 
+	.solutions, 
+	.landlord-cta, 
+	.why, .about {
+		padding: var(--space-10) var(--sapce-6);
+	}
+}
