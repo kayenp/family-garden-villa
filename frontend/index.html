@@ -1,43 +1,55 @@
 <!DOCTYPE html>
-<html charset='en'>
+<html lang='en'>
 	<head>
 		<meta charset='UTF-8'>
 		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+		<script src="https://kit.fontawesome.com/7ea39dcb5e.js" crossorigin="anonymous"></script>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-		<link rel='stylesheet' href='css/variables.css'>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 		<link rel='stylesheet' href='css/reset.css'>
-		<link rel='stylesheet' href='css/base.css'>
-		<link rel='stylesheet' href='css/components.css'>
-		<link rel='stylesheet' href='css/layout.css'>
-		<link rel='stylesheet' href='css/animations.css'>
-		<title> Family Garden Villa - Residential Rentals</title>
- 	</head>
+		<link rel='stylesheet' href='css/main.css'>
+		<title>Home Page</title>
+	</head>
 
 	<body>
-		<header>
-			<nav>
+		<header class='nav__wrap'>
+			<div class='top-bar'>
+				<a class='mobile__menu' href='#'><i class="fa-solid fa-bars"></i></a>
+				<a class='top-bar__brand' href='#'>Family Garden Villa</a>
+				<a href='#'><i class="fa-solid fa-circle-user"></i></a>
+			</div>
 
+			<nav class='nav'>
+				<ul class='nav__links'>
+					<li class='nav__menu--close'><i class="fa-solid fa-xmark"></i></li>
+					<li class='nav__link'></i><a href='#'>Listings</a></li>
+					<li class='nav__link'><a href='#'>Apply</a></li>
+					<li class='nav__link'><a href='#'>About</a></li>
+				</ul>
 			</nav>
-			<section>
-				<h1></h1>
-				<p></p>
-			</section>
 		</header>
+
+		<section class='hero'>
+			<div class='hero__img__container hero__img--overlay'>
+				<div class='h1__container'>
+					<p class='hero__eyebrow p'>Lorem ipsum dolor sit amet.</p>
+					<h1 class='h1 hero__title'>Find Your Perfect Rental</h1>
+					<p class='hero__sub p'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, corporis.</p>
+				</div>
+
+				<div class='hero__btn__container flex__container--column'>
+					<button class='btn hero__btn'>View Properties</button>
+					<button class='btn hero__btn--alt'>Contact Us</button>
+				</div>
+			</div>
+		</section>
 
 		<main>
 			<section>
-
+				<div class=''></div>
 			</section>
 		</main>
-
-		<footer>
-
-		</footer>
-
-		<script src='js/api.js'></script>
-		<script src='js/utils.js'></script>
-		<script src='home.js'></script>
+		<script src='js/main.js'></script>
 	</body>
 </html>
